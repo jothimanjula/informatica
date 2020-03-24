@@ -1,0 +1,106 @@
+<div class="container-fluid">
+  <div>
+    <div>
+      <div>
+        <div class="row">
+          <div class="col-md-12 m-t-1">
+            <div class="col-md-12 p-l-0">
+              <div class="card">
+                <div class="card-header">
+                  <h3 class="card-title">New Meeting Invite</h3>
+                </div>
+                <div class="card-body p-a-0">
+                  <hr />&nbsp;
+                  <div class="col-md-12 p-a-0">
+                    <div class="col-md-12">
+                      <div class="card p-a-2">
+                        <div class="card-block">
+                          <table border="0" cellspacing="0" cellpadding="0" width="100%" height="100%">
+                            <!--    Edit Employee Data Area -->
+                            <tr>
+                              <td width="100%">
+                                <table width="100%" border="0">
+                                  <tr>
+                                    <td class="mainheadtxt" width="20%">Meeting Subject</td>
+                                    <td class="mainheadtxt6" colspan="2">
+                                      <input type="text" id="txtMeetingSubject" name="txtMeetingSubject"
+                                        style="width:700px" aria-valuetext={{meetingList.LiveMeetingSubject}} />
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td class="mainheadtxt" width="20%">Attendees</td>
+                                    <td class="mainheadtxt6" width="350px">
+                                      <select id="ddlAttendees" style="width:300px">
+                                        <option value="MichalleJohn@tds.com">Michalle John</option>
+                                        <option value="ManjulaJothilingam@tds.com">Manjula Jothilingam</option>
+                                        <option value="RohitKumar@tds.com">Rohit kumar</option>
+                                        <option value="SathishKumar@tds.com">Sathish Kumar</option>
+                                        <option value="MuthuSelvam@tds.com">Muthu selvam</option>
+                                        <option value="PriyaJanakiraman@tds.com">Priya Janakiraman</option>
+                                      </select>
+                                    </td>
+                                    <td class="mainheadtxt6" align="left"><button class="btn btn-primary" data-status="Completed"
+                                        type="button">Select</button></td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="3">
+                                      <hr />
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td class="mainheadtxt" width="20%">Selected Attendees</td>
+                                    <td class="mainheadtxt6" colspan="2">
+                                      <input type="text" id="txtSelectedAttendees" name="txtSelectedAttendees"
+                                        style="width:700px" aria-valuetext={{meetingList.LiveMeetingAttendees}} />
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="3">
+                                      <hr />
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td class="mainheadtxt" width="20%">Meeting Agenda</td>
+                                    <td class="mainheadtxt6" colspan="2">
+                                      <textarea type="text" id="txtMeetingAgenda" name="txtMeetingAgenda"
+                                        style="width:700px; height:300px" cols="40" rows="5" aria-valuetext={{meetingList.LiveMeetingAgenda}} ></textarea>
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="3">
+                                      <hr />
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td class="mainheadtxt" width="20%">Meeting Time</td>
+                                    <td class="mainheadtxt6" colspan="2">
+                                      <input type="datetime-local" id="txtMeetingTime" name="txtMeetingTime" aria-valuetext={{meetingList.LiveMeetingDate}} + {{meetingList.LiveMeetingStartTime}} + {{meetingList.LiveMeetingEndTime}} />
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td colspan="3">
+                                      <hr />
+                                    </td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12 p-a-0" align="right">
+                    <button class="btn btn-primary" data-status="Completed" type="button">Save</button>
+                    <button class="btn btn-danger" data-status="Completed" type="button">Clear</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
