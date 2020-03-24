@@ -1,0 +1,48 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="content-sec">
+      <div>
+        <div class="row">
+          <div class="col-md-12 m-t-1">
+            <div class="col-md-12 p-l-0">
+              <div class="card">
+                <div class="card-header">
+                  <h3 class="card-title">List of Meetings</h3>
+                </div>
+                <div class="card-body p-a-0">
+                  <div class="col-md-12 p-a-0" align="right">
+                    <a [routerLink]="['/createmeeting']"><button class="btn btn-primary" data-status="Completed"
+                        type="button">Create Meeting</button></a>
+                  </div>
+                  <div class="col-md-12 p-a-0">
+                    <table class="table table-responsive" id="customerDatatable">
+                      <thead>
+                        <tr>
+                          <th>Meeting Subject</th>
+                          <th>Attendees</th>
+                          <th>Meeting Agenda</th>
+                          <th>Meeting Date Time</th>
+                          <th>Action</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr *ngFor="let mlist of meetingList">
+                          <td>{{mlist.LiveMeetingSubject}}</td>
+                          <td>{{mlist.LiveMeetingAttendees}}</td>
+                          <td>{{mlist.LiveMeetingAgenda}}</td>
+                          <td>{{mlist.LiveMeetingDate}} + {{mlist.LiveMeetingStartTime}} + {{mlist.LiveMeetingEndTime}}</td>
+                          <td><button class="btn btn-primary" data-status="Completed" type="button">Update</button></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
