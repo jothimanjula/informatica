@@ -1,0 +1,10 @@
+C:\Users\BALA\source\repos\InfomaticsAPI\InfomaticsDataLayer\bin\Debug\netcoreapp2.1\InfomaticsDataLayer.deps.json
+C:\Users\BALA\source\repos\InfomaticsAPI\InfomaticsDataLayer\bin\Debug\netcoreapp2.1\InfomaticsDataLayer.runtimeconfig.json
+C:\Users\BALA\source\repos\InfomaticsAPI\InfomaticsDataLayer\bin\Debug\netcoreapp2.1\InfomaticsDataLayer.runtimeconfig.dev.json
+C:\Users\BALA\source\repos\InfomaticsAPI\InfomaticsDataLayer\bin\Debug\netcoreapp2.1\InfomaticsDataLayer.dll
+C:\Users\BALA\source\repos\InfomaticsAPI\InfomaticsDataLayer\obj\Debug\netcoreapp2.1\InfomaticsDataLayer.csproj.CoreCompileInputs.cache
+C:\Users\BALA\source\repos\InfomaticsAPI\InfomaticsDataLayer\obj\Debug\netcoreapp2.1\InfomaticsDataLayer.AssemblyInfoInputs.cache
+C:\Users\BALA\source\repos\InfomaticsAPI\InfomaticsDataLayer\obj\Debug\netcoreapp2.1\InfomaticsDataLayer.AssemblyInfo.cs
+C:\Users\BALA\source\repos\InfomaticsAPI\InfomaticsDataLayer\bin\Debug\netcoreapp2.1\InfomaticsDataLayer.pdb
+C:\Users\BALA\source\repos\InfomaticsAPI\InfomaticsDataLayer\obj\Debug\netcoreapp2.1\InfomaticsDataLayer.dll
+C:\Users\BALA\source\repos\InfomaticsAPI\InfomaticsDataLayer\obj\Debug\netcoreapp2.1\InfomaticsDataLayer.pdb

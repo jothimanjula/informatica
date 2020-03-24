@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfomaticsDataLayer", "InfomaticsDataLayer\InfomaticsDataLayer.csproj", "{061C79F8-5809-4F14-8D2B-D95B03DEFD25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InformaticaAPI", "InformaticaAPI\InformaticaAPI.csproj", "{A4028DD7-CB1E-4252-9654-B904DDFC9DEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{061C79F8-5809-4F14-8D2B-D95B03DEFD25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{061C79F8-5809-4F14-8D2B-D95B03DEFD25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{061C79F8-5809-4F14-8D2B-D95B03DEFD25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{061C79F8-5809-4F14-8D2B-D95B03DEFD25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4028DD7-CB1E-4252-9654-B904DDFC9DEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4028DD7-CB1E-4252-9654-B904DDFC9DEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4028DD7-CB1E-4252-9654-B904DDFC9DEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4028DD7-CB1E-4252-9654-B904DDFC9DEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87FA7EBF-8190-4F6A-968D-FCD2820BE0AC}
+	EndGlobalSection
+EndGlobal
